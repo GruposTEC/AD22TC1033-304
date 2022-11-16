@@ -1,6 +1,17 @@
 #include <iostream>
 #include "jugador.h"
 
+Jugador::Jugador(int p,string c)
+{
+    posi = p;
+    color = c;
+}
+Jugador::Jugador()
+{
+    posi = 0;
+    color = "";
+}
+
 int Jugador::get_posi(){
     return posi;
 }

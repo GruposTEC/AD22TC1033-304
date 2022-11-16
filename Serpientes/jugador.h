@@ -10,6 +10,8 @@ class Jugador
         int posi;
         string color;
     public:
+        Jugador(int p, string c);
+        Jugador();
         int get_posi();
         void set_posi(int p);
         string get_color();

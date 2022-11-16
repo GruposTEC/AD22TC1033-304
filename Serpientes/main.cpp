@@ -2,6 +2,7 @@
 #include "casilla.h" 
 #include "dado.h"
 #include "jugador.h"
+#include "tablero.h"
 using std::cout;
 using std::endl;
 using std::cin;
@@ -9,7 +10,6 @@ using std::cin;
 
 int main()
 {
-    int prueba;
     cout << "Dentro de Serpientes y Escaleras" << endl;
     //cin >> prueba;
     cout << "Buena suerte" << endl;
@@ -28,4 +28,7 @@ int main()
     j.set_posi(3);
     cout<<j.get_color()<<endl;
     cout<<j.get_posi()<<endl;
+
+    Tablero tab;
+    tab.to_string();
 }
